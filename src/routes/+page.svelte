@@ -8,7 +8,7 @@
 
     let pins = [];
 
-    const q = query(collection(db, "pins"), orderBy("date", "asc"));
+    const q = query(collection(db, "pins"), orderBy("date", "desc"));
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
         pins = querySnapshot.docs;
     });
