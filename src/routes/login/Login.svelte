@@ -56,7 +56,7 @@
 </script>
 
 <div
-    class="bg-white w-2/6 h-[16rem] rounded shadow-md flex flex-col py-8 px-4
+    class="bg-white w-4/5 sm:w-[30rem] h-[16rem] rounded shadow-md flex flex-col py-8 px-4
                 gap-4"
 >
     <input
